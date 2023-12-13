@@ -13,7 +13,7 @@ function TodoItem({ todo }) {
 	};
 
 	const toggleCompleted = () => {
-		console.log(todo.id);
+		// console.log(todo.id);
 		toggleComplete(todo.id);
 	};
 
